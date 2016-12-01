@@ -1,0 +1,16 @@
+http://stackoverflow.com/questions/33501240/composer-error-while-installing-laravel-failed-to-decode-response-zlib-decode/34700203
+If you have an error when installing this package, please follow step by step below:
+
+Create a ~/.composer/config.json with:
+
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        {
+            "packagist": false
+        }
+    ]
+}
